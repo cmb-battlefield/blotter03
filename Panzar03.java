@@ -9,7 +9,7 @@ import robocode.*;
 /**
  * Panzar01 - a robot by (your name here)
  */
-public class Panzar03 extends BravoBot
+public class Panzar03 extends CharlieBot
 {
    int heading=100;
    int reverse=50;
@@ -41,11 +41,11 @@ public class Panzar03 extends BravoBot
 	/**
 	 * onScannedRobot: What to do when you see another robot
 	 */
-	public void onScannedRobot(ScannedRobotEvent e) {
+	/*public void onScannedRobot(ScannedRobotEvent e) {
 		// Replace the next line with any behavior you would like
 		fire(2);
       heading = (heading>100)? (heading - 100):heading;
-	}
+	}*/
 
 	/**
 	 * onHitByBullet: What to do when you're hit by a bullet

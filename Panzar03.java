@@ -1,4 +1,4 @@
-package Soviet;
+//package Soviet;
 
 
 import robocode.*;

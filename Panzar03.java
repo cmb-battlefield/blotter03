@@ -9,12 +9,12 @@ import robocode.*;
 /**
  * Panzar01 - a robot by (your name here)
  */
-public class Panzar03 extends CharlieBot
+public class Panzar03 extends AlphaBot
 {
    int heading=100;
    int reverse=50;
-   int tRight =360;
-   int tLeft=360;
+   int tRight =120;
+   int tLeft=30;
 	/**
 	 * run: Panzar01's default behavior
 	 */
@@ -58,7 +58,7 @@ public class Panzar03 extends CharlieBot
       else
          turnGunLeft(e.getBearing());
       fire(2);
-      heading = heading + 300;
+      heading = heading + 500;
       turnRight(90);
 	}
 	
@@ -67,8 +67,8 @@ public class Panzar03 extends CharlieBot
 	 */
 	public void onHitWall(HitWallEvent e) {
 		// Replace the next line with any behavior you would like
-		back(20);
-      this.turnLeft(90);
-      ahead(10);
+		back(50);
+      this.turnRight(90);
+      ahead(40);
 	}	
 }

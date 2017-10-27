@@ -9,7 +9,7 @@ import robocode.*;
 /**
  * Panzar01 - a robot by (your name here)
  */
-public class Panzar03 extends AlphaBot
+public class Panzar03 extends BravoBot
 {
    int heading=100;
    int reverse=50;
